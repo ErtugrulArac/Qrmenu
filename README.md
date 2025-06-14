@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# QR Menu System – Responsive Frontend UI + Admin Panel Design
 
-## Getting Started
+A modern, mobile-first QR menu system UI designed for restaurants, cafes, and similar businesses.  
+This project includes both the **customer-facing interface** and a fully responsive, minimal **admin panel** for managing menu content.
 
-First, run the development server:
+🧩 **Note:** This repository includes only the **frontend** implementation and UI logic. Backend and database integration are outside the scope of this project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Project Scope
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The goal of this project was to design a seamless digital menu system that enables end-users to access food categories and items via QR code, while allowing administrators to manage content efficiently via a custom admin dashboard.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🚀 Live Demo  
+🌐 [https://qrmenu-demo.vercel.app/category](https://qrmenu-demo.vercel.app/category)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Next.js** (Pages Router)
+- **React.js**
+- **Tailwind CSS**
+- **TypeScript** (optional, update if used)
+- **Vercel** (for deployment and hosting)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Key Features (Frontend)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 🧾 Customer Interface
+- Mobile-first, scan-and-view experience
+- Responsive category and product listing UI
+- Optimized for smartphones, tablets, and POS tablets
+- Clear typographic hierarchy & contrast for in-restaurant lighting
+
+### 🛠 Admin Panel UI
+- UI for managing food categories, product cards, and visibility
+- Custom input components for easy menu updates (non-functional placeholder)
+- Clean layout ready for backend/API integration
+
+---
+
+## 📸 Screenshots  
+*(Place screenshots of both the customer menu view and the admin UI if available)*
+
+---
+
+## 📦 Deployment
+
+Deployed via **Vercel**, optimized with Next.js static generation for blazing fast performance.  
+🔗 [qrmenu-demo.vercel.app](https://qrmenu-demo.vercel.app/category)
+
+---
+
+## 📂 Folder Structure Highlights
+
